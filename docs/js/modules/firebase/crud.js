@@ -6,7 +6,7 @@ import {
     push,
     update,
     remove,
-  } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-database.js";
+  } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-database.js";
   
   export function firebaseCRUD(app) {
     const db = getDatabase(app);

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  html {
+    scroll-behavior: smooth;
+}
+  body {
+    background-color: #242430;
+    font-family: system-ui, sans-serif;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  .producto {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+  }
+  .carrito {
+    border: 2px solid #444;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .hidden {
+    display: none;
+  }
+  .btnProducto{
+    margin-top: auto;
+    margin-bottom: 5px;
+    max-width: min-content;
+  }
+  .btnRed{
+    background-color: rgba(255, 0, 0, 0.345);
+  }
+  .btnGreen{
+    background-color: rgba(0, 128, 0, 0.244); 
+  }
+  .card-text{
+    max-height: 3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .card-text.expandido{
+    max-height: fit-content;
+    white-space: normal;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .card-body {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+  
+  .card-img-top {
+    max-height: 150px; 
+    object-fit: cover; 
+  }
+  
+  .card-title, .card-text {
+    margin-bottom: 0.5rem;
+  }
+  .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto; 
+  }
+  .card-footer {
+    margin-top: auto;
+  }
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+  .loader {
+    display: none;
+    text-align: center;
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

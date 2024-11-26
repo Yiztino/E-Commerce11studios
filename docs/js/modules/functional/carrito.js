@@ -1,22 +1,22 @@
-import { getProductos } from "./data.js";
 
 const d = document;
 const $listaCarrito = d.querySelector("#lista-carrito");
 const $totalCarrito = d.querySelector("#total-carrito");
 const $btnCompra = d.querySelector("#btn-compra");
 const $mensajeCompra = d.querySelector("#mensaje-compra");
-const $carrito = d.querySelector("#carrito");
 const $listaProductos = d.querySelector("#productos")
 const $loader = d.querySelector("#loader");
 const $mensajeLoader = d.querySelector("#mensajeLoader")
 
 
-let productos = [];
-console.log(productos);
+//console.log(productos);
 let carrito = [];
+
+let productos = [];
 export function obtenerProductos(){
   productos = getProductos();
 }
+//console.log(productos);
 export function mostrarProductosDisponibles(){
   if(productos==null || productos < 0 || productos.length === 0)
   {console.error("Lista de productos está vacía"); return;}
@@ -108,14 +108,7 @@ export function mostrarProductosDisponibles(){
     $producto.appendChild($card);
 
     $listaProductos.appendChild($producto);
-    // $listaProductos.appendChild($producto);
-    // $producto.appendChild($productoNombre);
-    // $producto.appendChild($productoImagen);
-    // $producto.appendChild($productoDescripcion);
-    // $producto.appendChild($productoPrecio);
-    // $producto.appendChild($productoStock);
-    // $producto.appendChild($buttonAnadir);
-    // $producto.appendChild($buttonQuitar);
+    
   } 
 }
 function agregarAlCarrito(productoNombre, cantidad) {

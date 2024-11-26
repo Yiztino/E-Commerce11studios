@@ -4,15 +4,16 @@ import {
     GithubAuthProvider,
     signInWithPopup,
     signOut,
-  } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js";
+  } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
   
   export function authGitHub(app) {
     
   
-    const d = document,
-      auth = getAuth(app),
-      provider = new GithubAuthProvider();
-      $appAuthGitHub = d.getElementById("app-auth-github");
+    const d = document;
+    const auth = getAuth(app);
+    const  provider = new GithubAuthProvider();
+    
+    let  $appAuthGitHub = d.getElementById("app-auth-github");
   
     onAuthStateChanged(auth, (user) => {
       console.log(user);
@@ -28,7 +29,7 @@ import {
         
       } else {
         console.log("Usuario NO Autenticado");
-        $appAuthGitHub.innerHTML = `<p>El contenido de esta sección es exclusivo para usuarios registrados</p>`;
+        //$appAuthGitHub.innerHTML = `<p>El contenido de esta sección es exclusivo para usuarios registrados</p>`;
       }
     });
   

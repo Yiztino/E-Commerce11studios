@@ -4,13 +4,14 @@ import {
     GoogleAuthProvider,
     signInWithPopup,
     signOut,
-  } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js";
+  } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
   
   export function authGoogle(app) {
     const d = document,
       auth = getAuth(app),
-      provider = new GoogleAuthProvider(),
-      $appAuthGoogle = d.getElementById("app-auth-google");
+      provider = new GoogleAuthProvider();
+      
+      let $appAuthGoogle = d.getElementById("app-auth-google");
   
     onAuthStateChanged(auth, (user) => {
       console.log(user);
@@ -25,13 +26,13 @@ import {
         `;
       } else {
         console.log("Usuario NO Autenticado");
-        $appAuthGoogle.innerHTML = `<p class="message">El contenido de esta sección es exclusivo para usuarios registrados</p>`;
+        //$appAuthGoogle.innerHTML = `<p class="message">El contenido de esta sección es exclusivo para usuarios registrados</p>`;
         
       }
     });
   
     d.addEventListener("click", (e) => {
-      console.log("Haz hecho click")
+      // console.log("Haz hecho click")
       if (e.target.matches("#google-login")) {
         alert("Ingresando con Google");
         console.log('Presionaste ingresar con google')
