@@ -70,7 +70,7 @@ import {
             const user = res.user;
             $form.reset();
 
-            window.location.href = "docs/html/cart/cartView.html";
+            window.location.href = "html/cart/cartView.html";
           })
           .catch((err) => {
             console.log(err);
