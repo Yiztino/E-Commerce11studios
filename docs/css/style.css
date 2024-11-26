@@ -9,27 +9,23 @@
 }
 
 
-.about {
+.services {
     text-align: center;
     padding: 50px 80px 50px 80px;
 }
-.about-content {
+.service-content {
     display: flex;
     padding-left: 400px;
 }
-.about-1 {
-    width: 50%;
-}
-.about-1 p {
-    font-size: 25PX;
-}
-.about-txt {
-    padding-left: 100px;
-    flex: 1;
+.services p {
+    font-size: 20PX;
+    color: #747b8f;
 }
 
-.about-1 h2, h3 {
+.services h2 {
     color: white;
+    font-size: 50px;
+
 }
 
 
