@@ -1,4 +1,6 @@
 # E-Commerce11studios
 E-Commerce del equipo de Eleven Studios 
 
-#Luisinho, pon aqui el link del pages para ir viendo que todo este bien
+## Link al github pages: 
+
+[Link al pages](https://yiztino.github.io/E-Commerce11studios/)
