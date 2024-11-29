@@ -140,6 +140,29 @@ body{
     display: none;
 }
 
+.logout {
+    margin-top: 20px; /* Ajusta este valor para posicionarlo más cerca de la navbar */
+    text-align: right; /* Alinea el botón al lado derecho */
+}
+
+#logout {
+    background-color: #7270ec;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    top: 30%;
+}
+
+#logout:hover {
+    background-color: #6c69f9;
+    transform: translateY(-2px); /* Efecto visual al pasar el mouse */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
 .submenu:hover #carrito {
     display: block;
     position: absolute;
