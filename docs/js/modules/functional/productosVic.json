@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "Vic 1",
+      "price": 150,
+      "image": "/docs/img/ph1.png",
+      "description": "Descuento en producto",
+      "category": "promotions"
+    },
+    {
+      "id": 2,
+      "name": "Vic 2",
+      "price": 150,
+      "image": "/docs/img/ph2.png",
+      "description": "Oferta especial",
+      "category": "promotions"
+    },
+    {
+        "id": 3,
+        "name": "Vic 3",
+        "price": 150,
+        "image": "/docs/img/ph2.png",
+        "description": "Oferta especial",
+        "category": "promotions"
+    },
+    {
+        "id": 4,
+        "name": "Vic 4",
+        "price": 150,
+        "image": "/docs/img/ph2.png",
+        "description": "Oferta especial",
+        "category": "promotions"
+      },
+    {
+      "id": 5,
+      "name": "Producto Vic 1",
+      "price": 200,
+      "image": "/docs/img/ph1.png",
+      "description": "Calidad premium",
+      "category": "new-products"
+    },
+    {
+      "id": 6,
+      "name": "Producto Vic 2",
+      "price": 200,
+      "image": "/docs/img/ph2.png",
+      "description": "Calidad premium",
+      "category": "new-products"
+    },
+    {
+        "id": 7,
+        "name": "Producto Vic 3",
+        "price": 200,
+        "image": "/docs/img/ph2.png",
+        "description": "Calidad premium",
+        "category": "new-products"
+      }
+]
+  

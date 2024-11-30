@@ -1,0 +1,59 @@
+[
+    {
+      "id": 8,
+      "name": "Yiz 1",
+      "price": 150,
+      "image": "/docs/img/ph1.png",
+      "description": "Descuento en producto",
+      "category": "promotions"
+    },
+    {
+      "id": 9,
+      "name": "Yiz 2",
+      "price": 150,
+      "image": "/docs/img/ph2.png",
+      "description": "Oferta especial",
+      "category": "promotions"
+    },
+    {
+        "id": 10,
+        "name": "Yiz 3",
+        "price": 150,
+        "image": "/docs/img/ph2.png",
+        "description": "Oferta especial",
+        "category": "promotions"
+    },
+    {
+        "id": 11,
+        "name": "Yiz 4",
+        "price": 150,
+        "image": "/docs/img/ph2.png",
+        "description": "Oferta especial",
+        "category": "promotions"
+      },
+    {
+      "id": 12,
+      "name": "Producto Yiz 1",
+      "price": 200,
+      "image": "/docs/img/ph1.png",
+      "description": "Calidad premium",
+      "category": "new-products"
+    },
+    {
+      "id": 13,
+      "name": "Producto Yiz 2",
+      "price": 200,
+      "image": "/docs/img/ph2.png",
+      "description": "Calidad premium",
+      "category": "new-products"
+    },
+    {
+        "id": 14,
+        "name": "Producto Yiz 3",
+        "price": 200,
+        "image": "/docs/img/ph2.png",
+        "description": "Calidad premium",
+        "category": "new-products"
+      }
+]
+  

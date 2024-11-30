@@ -1,0 +1,59 @@
+[
+    {
+      "id": 22,
+      "name": "Promo 1",
+      "price": 150,
+      "image": "./img/ph1.png",
+      "description": "Descuento en producto",
+      "category": "promotions"
+    },
+    {
+      "id": 23,
+      "name": "Promo 2",
+      "price": 150,
+      "image": "./img/ph2.png",
+      "description": "Oferta especial",
+      "category": "promotions"
+    },
+    {
+        "id": 24,
+        "name": "Promo 3",
+        "price": 150,
+        "image": "./img/ph2.png",
+        "description": "Oferta especial",
+        "category": "promotions"
+    },
+    {
+        "id": 25,
+        "name": "Promo 4",
+        "price": 150,
+        "image": "./img/ph2.png",
+        "description": "Oferta especial",
+        "category": "promotions"
+      },
+    {
+      "id": 26,
+      "name": "Samsung",
+      "price": 200,
+      "image": "./img/ph1.png",
+      "description": "Calidad premium",
+      "category": "new-products"
+    },
+    {
+      "id": 27,
+      "name": "Samsung",
+      "price": 200,
+      "image": "./img/ph2.png",
+      "description": "Calidad premium",
+      "category": "new-products"
+    },
+    {
+        "id": 28,
+        "name": "Samsung",
+        "price": 200,
+        "image": "./img/ph2.png",
+        "description": "Calidad premium",
+        "category": "new-products"
+      }
+]
+  
