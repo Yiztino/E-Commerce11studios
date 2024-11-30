@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>11 Studios E-Commerce</title>
   <meta name="description" content="Página de inicio del E-Commerce de 11Studios">
-  <link rel="icon" href="/docs/img/Megaandre.png">
-  <link rel="stylesheet" href="../css/megaandre.css">
+  <link rel="icon" href="/docs/img/Raccoon.png">
+  <link rel="stylesheet" href="/docs/css/carritoVic.css">
+  <link rel="stylesheet" href="/docs/css/megaandre.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 </head>
 <body>
@@ -16,20 +17,20 @@
   <header class="header">
       <!-- NAVBAR -->
       <div class="menu container">
-        <a href="index.html" class="logo">11 Studios</a>
-        <label for="menu"><img src="./img/menu.png" class="menu-icono" alt=""></label>
+        <a href="Megaandre.html" class="logo">Megaandre</a>
+        <label for="menu"><img src="/docs/img/menu.png" class="menu-icono" alt=""></label>
         <nav class="navbar">
           <ul>
+            <li><a href="/docs/index.html">Menú</a></li>
             <li><a href="#Promociones">Promociones</a></li>
-            <li><a href="#Informacion">Información</a></li>
-            <li><a href="#Contacto">Contacto</a></li>
+            <li><a href="#Contacto">Nuevos Productos</a></li>
           </ul>
         </nav>
         <div>
           <ul>
             <!-- CARRITO -->
             <li class="submenu">
-              <img src="./img/car.svg" id="img-carrito" alt="">
+              <img src="/docs/img/car.svg" id="img-carrito" alt="">
               <div id="carrito">
                 <table id="lista-carrito">
                   <thead>
@@ -37,12 +38,19 @@
                       <th>Imagen</th>
                       <th>Nombre</th>
                       <th>Precio</th>
+                      <th>Cantidad</th>
                       <th></th>
                     </tr>
                   </thead>
                   <tbody></tbody>
                 </table>
-                <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                <div class="total-container">
+                  <p><strong>Total:</strong> <span id="total-carrito">$0</span></p>
+                </div>
+                <div class="container">
+                  <a href="#" id="vaciar-carrito" class="btn-3 mr-5 ml-5 pl-5 pr-5">Vaciar carrito</a>
+                  <a href="./html/login.html" id="login" class="btn-1">Ir al carrito</a>
+                </div>
               </div>
             </li>
           </ul>
@@ -52,60 +60,6 @@
 
   <!-- MAIN -->
   <main>
-
-    <!-- Swiper Section -->
-    <section class="header-content container">
-      <div class="swiper mySwiper-1">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="header-info">
-              <div class="header-txt">
-                <h1>Psyko Raccoon</h1>
-                <div class="prices">
-                  <p class="price-2">info mia xd</p>
-                </div>
-                <a href="./html/Raccoon.html" class="btn-1">Productos</a>
-              </div>
-              <div class="header-img">
-                <img src="./img/Raccoon.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="header-info">
-              <div class="header-txt">
-                <h1>Yiztino</h1>
-                <div class="prices">
-                  <p class="price-2">Info de Luisinho</p>
-                </div>
-                <a href="/docs/html/Yiztino.html" class="btn-1">Productos</a>
-              </div>
-              <div class="header-img">
-                <img src="./img/Yiztino.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="header-info">
-              <div class="header-txt">
-                <h1>Megaandre</h1>
-                <div class="prices">
-                  <p class="price-2">Info de penecito</p>
-                </div>
-                <a href="./html/Megaandre.html" class="btn-1">Productos</a>
-              </div>
-              <div class="header-img">
-                <img src="./img/Megaandre.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
-
     <hr>
     <!-- Promociones -->
     <section class="promos container" id="Promociones">
@@ -121,7 +75,7 @@
                       <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
                   </div>
                   <div class="categorie-img">
-                      <img src="./img/ph1.png" alt="">
+                      <img src="/docs/img/ph1.png" alt="">
                   </div>
               </div>
               <div class="categorie">
@@ -134,7 +88,7 @@
                       <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
                   </div>
                   <div class="categorie-img">
-                      <img src="./img/ph2.png" alt="">
+                      <img src="/docs/img/ph2.png" alt="">
                   </div>
               </div>
               <div class="categorie">
@@ -147,7 +101,7 @@
                       <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
                   </div>
                   <div class="categorie-img">
-                      <img src="./img/ph3.png" alt="">
+                      <img src="/docs/img/ph3.png" alt="">
                   </div>
               </div>
               <div class="categorie">
@@ -160,7 +114,7 @@
                       <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
                   </div>
                   <div class="categorie-img">
-                      <img src="./img/ph4.png" alt="">
+                      <img src="/docs/img/ph4.png" alt="">
                   </div>
               </div>
           </div>
@@ -174,7 +128,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="product">
-                        <img src="./img/ph1.png" alt="">
+                        <img src="/docs/img/ph1.png" alt="">
                         <div class="product-txt">
                             <h3>Samsung</h3>
                             <p>Calidad premium</p>
@@ -185,7 +139,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="product">
-                        <img src="./img/ph2.png" alt="">
+                        <img src="/docs/img/ph2.png" alt="">
                         <div class="product-txt">
                             <h3>Samsung</h3>
                             <p>Calidad premium</p>
@@ -197,7 +151,7 @@
                 <div class="swiper-slide">
 
                     <div class="product">
-                        <img src="./img/ph3.png" alt="">
+                        <img src="/docs/img/ph3.png" alt="">
                         <div class="product-txt">
                             <h3>Samsung</h3>
                             <p>Calidad premium</p>
@@ -209,7 +163,7 @@
                 <div class="swiper-slide">
 
                     <div class="product">
-                        <img src="./img/ph4.png" alt="">
+                        <img src="/docs/img/ph4.png" alt="">
                         <div class="product-txt">
                             <h3>Samsung</h3>
                             <p>Calidad premium</p>
@@ -227,12 +181,6 @@
 
 
     <hr>
-
-    <section class="products container" id="Informacion">
-        <h2>Acerca de nosotros</h2>
-        <p>Hola uwu</p>
-        
-    </section>
 
   </main>
   <!-- FOOTER  -->
@@ -273,6 +221,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script type="module" src="/docs/js/main.js"></script>
+  <script type="module" src="/docs/js/modules/functional/carritoVic.js"></script>
   <script type="module" src="/docs/js/modules/functional/dynamicElements.js"></script> 
   </body>
 </html>

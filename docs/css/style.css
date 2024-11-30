@@ -141,8 +141,8 @@ body{
 }
 
 .logout {
-    margin-top: 20px; /* Ajusta este valor para posicionarlo más cerca de la navbar */
-    text-align: right; /* Alinea el botón al lado derecho */
+    margin-top: 20px; 
+    text-align: right; 
 }
 
 #logout {
@@ -158,7 +158,7 @@ body{
 
 #logout:hover {
     background-color: #6c69f9;
-    transform: translateY(-2px); /* Efecto visual al pasar el mouse */
+    transform: translateY(-2px); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 

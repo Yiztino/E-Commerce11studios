@@ -13,7 +13,7 @@ html {
 }
 
 body{
-    background-color: #010123;
+    background-color: #244169;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -68,17 +68,17 @@ body{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    background-color: rgba(0, 8, 255, 0.8); 
+    background-color: rgba(0, 4, 110, 0.8); 
     border-radius: 0 0 15px 15px; 
     padding: 10px 20px; 
-    box-shadow: 0 2px 10px rgba(0, 60, 255, 0.386); 
+    box-shadow: 0 2px 10px rgba(0, 4, 110, 0.386); 
     box-sizing: border-box;
 }
 
 
 .logo {
     font-size: 25px;
-    color: #7270EC;
+    color: #00f2ff;
     text-transform: uppercase;
     font-weight: 800;
 }
@@ -96,7 +96,7 @@ body{
 }
 
 .menu .navbar ul li a:hover {
-    color: #2522b7;
+    color: #00f2ff;
 }
 #menu {
     display: none;
@@ -203,9 +203,11 @@ hr {
     border:  1px solid #7A7B8F16;
 }
 .promos {
+    margin-top: 80px;
     padding: 50px 0;
     text-align: center;
 }
+
 .promos h2 {
     font-size: 50px;
     color: white;
@@ -241,6 +243,7 @@ hr {
 }
 .products {
     padding: 50px 0;
+    text-align: center;
 }
 .products h2 {
     font-size: 50px;
@@ -274,7 +277,8 @@ hr {
     margin-top: 15px;
 }
 .btn-3:hover {
-    background-color: #7270ec;
+    background-color: #00f2ff;
+    color: #244169;
 }
 .footer {
     display: flex;

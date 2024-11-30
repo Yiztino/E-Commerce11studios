@@ -1,0 +1,35 @@
+.total-container {
+    text-align: right;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.btn-eliminar {
+    background-color: red; /* Fondo rojo */
+    color: white; /* Texto blanco */
+    border: none; /* Sin bordes */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 0.9rem; /* Tamaño de texto */
+}
+
+/* Efecto al pasar el mouse */
+.btn-eliminar:hover {
+    background-color: darkred; /* Cambia a un rojo más oscuro */
+    cursor: pointer;
+}
+
+.btn-descargar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-descargar:hover {
+    background-color: #0056b3;
+}
