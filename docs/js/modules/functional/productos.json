@@ -1,59 +1,43 @@
 [
-    {
-      "id": 22,
-      "name": "Promo 1",
-      "price": 150,
-      "image": "./img/ph1.png",
-      "description": "Descuento en producto",
-      "category": "promotions"
-    },
-    {
-      "id": 23,
-      "name": "Promo 2",
-      "price": 150,
-      "image": "./img/ph2.png",
-      "description": "Oferta especial",
-      "category": "promotions"
-    },
-    {
-        "id": 24,
-        "name": "Promo 3",
-        "price": 150,
-        "image": "./img/ph2.png",
-        "description": "Oferta especial",
-        "category": "promotions"
-    },
-    {
-        "id": 25,
-        "name": "Promo 4",
-        "price": 150,
-        "image": "./img/ph2.png",
-        "description": "Oferta especial",
-        "category": "promotions"
-      },
-    {
-      "id": 26,
-      "name": "Samsung",
-      "price": 200,
-      "image": "./img/ph1.png",
-      "description": "Calidad premium",
-      "category": "new-products"
-    },
-    {
-      "id": 27,
-      "name": "Samsung",
-      "price": 200,
-      "image": "./img/ph2.png",
-      "description": "Calidad premium",
-      "category": "new-products"
-    },
-    {
-        "id": 28,
-        "name": "Samsung",
-        "price": 200,
-        "image": "./img/ph2.png",
-        "description": "Calidad premium",
-        "category": "new-products"
-      }
+  {
+    "id": 10,
+    "name": "Dungeon Skate",
+    "price": 150,
+    "image": "./img/productosAndre/DungeonSkate.png",
+    "description": "Descuento en producto",
+    "category": "promotions"
+  },
+  {
+    "id": 11,
+    "name": "Friends Night",
+    "price": 164,
+    "image": "./img/productosAndre/FriendsNight.png",
+    "description": "Oferta especial",
+    "category": "promotions"
+  },
+  {
+    "id": 12,
+    "name": "Dino Riot",
+    "price": 200,
+    "image": "./img/productosVic/DinoRiot.png",
+    "description": "Calidad premium",
+    "category": "new-products"
+  },
+  {
+    "id": 13,
+    "name": "Bodhi",
+    "price": 200,
+    "image":"./img/productosYiz/Bodhi.png",
+    "description": "Calidad premium",
+    "category": "new-products"
+  },
+  {
+    "id": 14,
+    "name": "Detectives Curse",
+    "price": 500,
+    "image":"./img/productosYiz/detectivesCurse.png",
+    "description": "Calidad premium",
+    "category": "new-products"
+  }
 ]
   

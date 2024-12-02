@@ -63,17 +63,31 @@
 <body>
     
 <hr>
-  <section>
+    <section>
     <!-- CARRITO MAIN -->
     <div>
-      <section id="carrito" class="carrito container">
-        <h2>Carrito de Compras</h2>
-        <ul id="lista-carrito"></ul>
-        <p>Total: <span id="total-carrito">0</span></p>
-        <button id="btn-compra">Comprar</button>
-      </section>
-    </div>
-  </section>
+        <section id="carrito" class="carrito container">
+          <h2>Carrito de Compras</h2>
+          <!-- <ul id="lista-carrito"> -->
+            <table id="lista-carrito">
+              <thead>
+                <tr>
+                  <th>Imagen</th>
+                  <th>Nombre</th>
+                  <th>Precio</th>
+                  <th>Cantidad</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+
+          <!-- </ul> -->
+          <p>Total: <span id="total-carrito">0</span></p>
+          <button id="btn-compra">Comprar</button>
+        </section>
+      </div>
+    </section>
     <!-- LOADER    style="display:none;" -->
     <div class="container mt-5">
       <div id="loader" class="hidden mt-3 text-center">

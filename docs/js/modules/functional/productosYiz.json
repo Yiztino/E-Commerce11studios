@@ -1,59 +1,27 @@
 [
     {
-      "id": 8,
+      "id": 4,
       "name": "Chaos Control Division",
       "price": 150,
-      "image": "../img/ph1.png",
+      "image": "../img/productosYiz/chaosControlDivision.jpg",
       "description": "Descuento en producto",
       "category": "promotions"
     },
     {
-      "id": 9,
-      "name": "Yiz 2",
-      "price": 150,
-      "image": "../img/ph2.png",
+      "id": 5,
+      "name": "Invasion To The King",
+      "price": 80,
+      "image": "../img/productosYiz/InvasionToTheKing.png",
       "description": "Oferta especial",
       "category": "promotions"
     },
     {
-        "id": 10,
-        "name": "Yiz 3",
+        "id": 6,
+        "name": "City Underground",
         "price": 150,
-        "image": "../img/ph2.png",
+        "image": "../img/productosYiz/CityUnderground.png",
         "description": "Oferta especial",
-        "category": "promotions"
-    },
-    {
-        "id": 11,
-        "name": "Yiz 4",
-        "price": 150,
-        "image": "../img/ph2.png",
-        "description": "Oferta especial",
-        "category": "promotions"
-      },
-    {
-      "id": 12,
-      "name": "Producto Yiz 1",
-      "price": 200,
-      "image": "../img/ph1.png",
-      "description": "Calidad premium",
-      "category": "new-products"
-    },
-    {
-      "id": 13,
-      "name": "Producto Yiz 2",
-      "price": 200,
-      "image": "../img/ph2.png",
-      "description": "Calidad premium",
-      "category": "new-products"
-    },
-    {
-        "id": 14,
-        "name": "Producto Yiz 3",
-        "price": 200,
-        "image": "../img/ph2.png",
-        "description": "Calidad premium",
         "category": "new-products"
-      }
+    }
 ]
   
