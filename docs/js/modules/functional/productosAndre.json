@@ -3,7 +3,7 @@
       "id": 15,
       "name": "Andre 1",
       "price": 150,
-      "image": "/docs/img/ph1.png",
+      "image": "../img/ph1.png",
       "description": "Descuento en producto",
       "category": "promotions"
     },
@@ -11,7 +11,7 @@
       "id": 16,
       "name": "Andre 2",
       "price": 150,
-      "image": "/docs/img/ph2.png",
+      "image": "../img/ph2.png",
       "description": "Oferta especial",
       "category": "promotions"
     },
@@ -19,7 +19,7 @@
         "id": 17,
         "name": "Andre 3",
         "price": 150,
-        "image": "/docs/img/ph2.png",
+        "image": "../img/ph2.png",
         "description": "Oferta especial",
         "category": "promotions"
     },
@@ -27,7 +27,7 @@
         "id": 18,
         "name": "Andre 4",
         "price": 150,
-        "image": "/docs/img/ph2.png",
+        "image": "../img/ph2.png",
         "description": "Oferta especial",
         "category": "promotions"
       },
@@ -35,7 +35,7 @@
       "id": 19,
       "name": "Producto Andre 1",
       "price": 200,
-      "image": "/docs/img/ph1.png",
+      "image": "../img/ph1.png",
       "description": "Calidad premium",
       "category": "new-products"
     },
@@ -43,7 +43,7 @@
       "id": 20,
       "name": "Producto Andre 2",
       "price": 200,
-      "image": "/docs/img/ph2.png",
+      "image": "../img/ph2.png",
       "description": "Calidad premium",
       "category": "new-products"
     },
@@ -51,7 +51,7 @@
         "id": 21,
         "name": "Producto Andre 3",
         "price": 200,
-        "image": "/docs/img/ph2.png",
+        "image": "../img/ph2.png",
         "description": "Calidad premium",
         "category": "new-products"
       }
