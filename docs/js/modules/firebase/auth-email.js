@@ -16,21 +16,37 @@ import {
     const auth = getAuth(app);
 
     let $appAuthEmail = d.getElementById("app-auth-email");
-    
+    let $btnLogout = d.getElementById("btnLogout")
     onAuthStateChanged(auth, (user) => {
       console.log(user);
   
       if (user) {
         console.log("Usuario Autenticado");
         $appAuthEmail.innerHTML = `
-          <p class="message" >Si ves este contenido es porque estás logueado</p>
-          <button id="logout">Salir</button>
+          <p class="message authenticated text-align-right " >Si ves este contenido es porque estás logueado</p>
+           
+          <button id="login" class="text-align-right btnContinuar" >Continuar</button>
+         
+        `;
+        $btnLogout.innerHTML = `
+          <div>
+          
+            <button id="logout" class="btnLogout">Logout from account</button>
+          </div>
+          
         `;
         //window.location.href = "/docs/html/cart/cartView.html";
         
       } else {
         console.log("Usuario NO Autenticado");
-        $appAuthEmail.innerHTML = `<p class="message">El contenido de esta sección es exclusivo para usuarios registrados</p>`;
+        $appAuthEmail.innerHTML = `<p class="message non-autheticated">El contenido de esta sección es exclusivo para usuarios registrados</p>`;
+        $btnLogout.innerHTML = `
+        <div>
+        
+          <button id="logout btnLogout disabled"> Es necesario que te logees para checar tu carrito</button>
+        </div>
+        
+      `;
       }
     });
     //SI SE LLEnó el formulario
@@ -92,6 +108,10 @@ import {
             const errorCode = error.code;
             const errorMessage = error.message;
         });
+      }
+      if (e.target.matches("#login")) {
+        alert("Continuando, sesión ya iniciada");
+        window.location.href = "cartView.html";
       }
     });
   }
